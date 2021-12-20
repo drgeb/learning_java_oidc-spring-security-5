@@ -14,6 +14,11 @@ repositories {
     mavenCentral()
 }
 
+ext {
+	set('spring-security.version','5.3.1.RELEASE')
+	set('spring.version', '5.2.5.RELEASE')
+}
+
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
     implementation 'org.springframework.boot:spring-boot-starter-security'
